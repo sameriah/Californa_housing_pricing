@@ -5,9 +5,13 @@ The core issue addressed in this project is the need to predict housing prices a
 
 **Approach:**
 Loaded the Dataset: Imported the housing dataset and displayed the first few records to understand its structure.
+
 Separated Features and Target: Split the data into input features (X) and output label (median_house_value).
+
 Handled Missing Values: Replaced missing values, particularly in total_bedrooms, using the column mean.
+
 Encoded Categorical Variables: Converted the ocean_proximity categorical column to numeric using label encoding or one-hot encoding.
+
 Split Data for Modeling: Divided data into 80% training and 20% testing sets.
 
 
@@ -18,6 +22,7 @@ Performed Linear Regression: Trained a linear regression model on the training d
 
 
 Evaluated the Model: Calculated and reported RMSE (Root Mean Squared Error) to evaluate model accuracy.
+
 Visualized the Regression Line: Plotted the regression line against training and test data to assess fit and linearity.
 
 
